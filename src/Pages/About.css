@@ -1,0 +1,36 @@
+.about{
+   
+    background: linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)), url(../images/Slider/slider6.jpeg);
+    background-size:cover;
+    
+}
+
+.flex-column h1{
+    font-size:60px;
+}
+
+
+
+.text-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;
+}
+
+.text-img h5{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 1100px) {
+.text-img{
+       grid-template-columns: 1fr;  
+       grid-gap: 10px;
+    }
+    
+}
+

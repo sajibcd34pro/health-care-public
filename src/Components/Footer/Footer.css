@@ -1,0 +1,48 @@
+.f-common{
+    font-size:30px;
+    color:#000000;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.icon {
+    width: 50px;
+    border-radius:50%
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fab{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.logo-bg{
+    background: #2B6E74;
+}
+
+.usefull-links p, .service-footer p{
+    font-size:18px;
+    font-weight: 600;
+    color: rgb(4, 94, 4);
+}
+
+.footer-btn{
+    width: 250px;
+    border-radius:10px;
+}
+
+.submit{
+    margin-top: 15px;
+    background-color:  #00ACB1;
+    color:white;
+}
